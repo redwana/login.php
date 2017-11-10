@@ -4,7 +4,7 @@ a simple login form using php and Mysql
 home.php
 
 This is the home page structured with html and styled by css.
-I created a form tags and 2 input tags such as username: and password:
+I created a form tags and 2 input fields such as username: and password:
 
 
 
@@ -15,6 +15,6 @@ Mysql database server.
 
 prlog.php
 
-This is the php script that verified if the users input are already
+This is the php script that validates if the users input are already
 Registered to the database. If already registered it will echo the username,
 else will echo error.
