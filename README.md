@@ -15,6 +15,5 @@ Mysql database server.
 
 prlog.php
 
-This is the php script that validates if the users input are already
-Registered to the database. If already registered it will echo the username,
-else will echo error.
+This is the php script that starts a session and validates if the users input are already
+Registered to the database.
