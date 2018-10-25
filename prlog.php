@@ -2,10 +2,13 @@
 
 
 session_start();
-
-
-$u = $_POST['uid'];
+// chect the reequest method in here
+ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+   $u = $_POST['uid'];
 $p = $_POST['pwd'];
+ }
+
+
 
 
 include 'dbc.php';
